@@ -1,0 +1,32 @@
+.WeatherDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+.DisplayCity {
+  padding-top: 15px;
+}
+
+.CityDiv {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.DisplayIcon {
+  padding: 10px;
+}
+
+.DisplayTemp {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 15px;
+  font-size: 35px;
+}
+
+.WeatherDescription {
+  display: flex;
+  flex-direction: column;
+  font-weight: lighter;
+}

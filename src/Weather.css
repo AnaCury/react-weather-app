@@ -1,0 +1,75 @@
+.GetCurrentLocation {
+  text-decoration: none;
+  font-size: x-large;
+  color: whitesmoke;
+  padding-right: 15px;
+}
+
+.fa-map-marker-alt {
+  border-bottom: 1px solid whitesmoke;
+  padding: 1px;
+}
+
+.fa-map-marker-alt:hover {
+  border-bottom: 1px solid whitesmoke;
+  padding: 1px;
+  color: whitesmoke;
+}
+
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+
+[data-title]:after {
+  content: attr(data-title);
+  background-color: whitesmoke;
+  color: #212121;
+  font-size: 60%;
+  position: absolute;
+  padding: 2px;
+  bottom: -1.6em;
+  right: 100%;
+  white-space: nowrap;
+  opacity: 0;
+  border: 1px solid whitesmoke;
+  border-radius: 18px;
+  z-index: 99999;
+  visibility: hidden;
+}
+
+[data-title] {
+  position: relative;
+}
+
+form {
+  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  border: none;
+  outline: none;
+  padding: 0.8em;
+  border-radius: 18px;
+  font-family: inherit;
+  background: whitesmoke;
+}
+
+.form-control:autofocus {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.SearchBtn {
+  margin: 0.5em;
+  border: none;
+  height: 2.5em;
+  width: 2.5em;
+  outline: none;
+  border-radius: 50px;
+  background: whitesmoke;
+  cursor: pointer;
+}
