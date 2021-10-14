@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). And it is hostend on Netlify, have a look on https://wizardly-sinoussi-cbea2d.netlify.app/ .
 
 ## Available Scripts
 
