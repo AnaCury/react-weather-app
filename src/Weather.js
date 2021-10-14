@@ -42,7 +42,7 @@ export default function Weather(props) {
       <div className="Weather">
         <form onSubmit={handleSubmit}>
           {" "}
-          <span>
+          <span className="GetCurrentLocation">
             <i className="fas fa-map-marker-alt"></i>
           </span>
           <input
